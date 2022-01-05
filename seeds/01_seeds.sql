@@ -1,3 +1,5 @@
+-- Fake Data
+
 INSERT INTO users (name, email, password)
 VALUES
 ('Eva Stanley', 'sebastianguerra@ymail.com','$2a$10$FB/BOAVhpuLvpOREQVmvmezD4ED/.JBIDRh70tGevYzYzQgFId2u.'),
@@ -34,12 +36,12 @@ VALUES
 ('2023-05-27', '2023-05-28', 4, 2),
 ('2023-04-23', '2023-05-02', 8, 1);
 
-INSERT INTO property_reviews (guest_id, property_id, rating, message)
+INSERT INTO property_reviews (guest_id, property_id, reservation_id, rating, message)
 VALUES
-(2,5,3,'message'),
-(1,4,4,'message'),
-(8,1,4,'message'),
-(3,8,4,'message'),
-(4,2,5,'message'),
-(4,3,4,'message'),
-(5,6,5,'message');
+(2,5,10,3, 'message'),
+(1,4,1,4, 'message'),
+(8,1,2,4, 'message'),
+(3,8,5,4, 'message'),
+(4,2,7,5, 'message'),
+(4,3,4,4, 'message'),
+(5,6,3,5, 'message');
